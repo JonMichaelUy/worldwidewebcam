@@ -18,18 +18,20 @@ const $iframe = $('iframe')
 
 
 //FUNCTIONS
-$.ajax(randomURL).then(function(data){
-    console.log(data)
+$('.randomBtn').click(function(){
+  $.ajax(randomURL).then(function(data){
+    // console.log(data)
     $title.text('Title: ' + data['result']['webcams'][0]['title']);
-    $city.text('City: ' + data['result']['webcams'][0]['location']['city'])
-    $region.text('Region: ' + data['result']['webcams'][0]['location']['region'])
-    $country.text('Country: ' + data['result']['webcams'][0]['location']['country'])
-    let url=data['result']['webcams'][0]['player']['day']['embed']
+    $city.text('City: ' + data['result']['webcams'][0]['location']['city']);
+    $region.text('Region: ' + data['result']['webcams'][0]['location']['region']);
+    $country.text('Country: ' + data['result']['webcams'][0]['location']['country']);
+
+    let url= data['result']['webcams'][0]['player']['day']['embed']
+    
     $iframe.attr('src',url)
-    console.log(url)
-
+    // console.log(url)
+  })
 })
-
 
 
 
