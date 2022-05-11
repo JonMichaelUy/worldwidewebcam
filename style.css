@@ -1,6 +1,6 @@
 body {
   background-image: url("mapbackground.jpg");
-  background-color: rgb(25, 40, 75);
+  background-color: rgb(27, 10, 46);
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -24,6 +24,9 @@ main {
   background-color: rgb(166, 35, 164);
   color:black;
   border-radius: 25px;
+  
+
+  
 
 }
 
@@ -37,11 +40,10 @@ iframe{
 }
 .buttons{
   display: flex;
-  margin: 1% 0;
+  margin: 0 0;
   justify-content:space-around;
   background-color: rgb(72, 72, 184);
   color: black;
-  padding: 5px;
   border-radius: 25px;
   
   
@@ -54,7 +56,29 @@ iframe{
 .labels {
   background-color: rgb(161, 35, 161);
   margin: 1% 0;
-  padding: 2px;
+  padding: 1px;
   border-radius: 25px;
+
+}
+
+@media only screen and (max-width: 800px) {
+  body{
+    background-image: none;
+    background-color: rgb(24, 8, 41);
+    height: 100%;
+  }
+  .title {
+    align-self: center;
+    width: auto;
+  }
+  .buttons {
+    align-self: center;
+    width: auto;
+  }
+  iframe {
+    align-self: center;
+    width: 100%;
+    /* height: auto; */
+  }
 
 }
