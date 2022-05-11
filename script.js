@@ -66,6 +66,24 @@ $('.randomBtn').click(function(){
   })
 })
 
+$('.liveBtn').click(function(){
+
+  const liveURL = 'https://api.windy.com/api/webcams/v2/list/property=live/orderby=random/limit=50?show=webcams:image,location,player;categories&key=xMMGgPgLclxZ4KEX9vDrtMTweoIiHQqm'
+  $.ajax(liveURL).then(function(data){
+    // console.log(data)
+    $title.text('Title: ' + data['result']['webcams'][0]['title']);
+    $city.text('City: ' + data['result']['webcams'][0]['location']['city']);
+    $region.text('Region: ' + data['result']['webcams'][0]['location']['region']);
+    $country.text('Country: ' + data['result']['webcams'][0]['location']['country']);
+
+    // let url= data['result']['webcams'][0]['player']['day']['embed']
+    let url = `https://webcams.windy.com/webcams/stream/${data['result']['webcams'][0]['id']}`
+
+    $iframe.attr('src',url)
+    // console.log(url)
+  })
+})
+
 
 
 
