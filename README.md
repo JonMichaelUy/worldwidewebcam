@@ -14,7 +14,7 @@ Tehcnologies used:
 
 
 Screenshot
-  ![image](https://github.com/JonMichaelUy/worldwidewebcam/issues/1#issue-1233187686)
+  https://github.com/JonMichaelUy/worldwidewebcam/issues/1#issue-1233187686
 
 
 
