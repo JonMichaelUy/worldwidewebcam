@@ -65,7 +65,7 @@ iframe{
   body{
     background-image: none;
     background-color: rgb(24, 8, 41);
-    height: 100%;
+    
   }
   .title {
     align-self: center;
@@ -78,6 +78,7 @@ iframe{
   iframe {
     align-self: center;
     width: 100%;
+    height: 40vh
     
   }
 
