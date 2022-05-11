@@ -11,12 +11,14 @@
 </head>
 
 <body>
+
+<main>
+  <div class = "title">
   <h1>WorldWideWebcam</h1>
-
-  <h3>what do you want to see today?</h3>
-
+  <h2>what do you want to see today?</h2>
+</div>
   
-
+<div class = "buttons">
 <form action="">
   <label for="category">Choose a scene</label>
   <select name="category" id="category">
@@ -47,17 +49,18 @@
 <button class="randomBtn">Surprise Me</button>
 
 <button class="liveBtn">LIVE only</button>
+</div>
 
 
-
-  <main>
+  <div class ="display">
     <iframe src="https://webcams.windy.com/webcams/public/embed/player/1562900565/day" width="750" height="600">webcam</iframe>
-
+  </div>
+    <div class ="labels">
     <p id="title">Title </p>
     <p id="city">City</p>
     <p id="region">Region</p>
     <p id="country">Country</p>
-
+  </div>
   </main>
 
 </body>

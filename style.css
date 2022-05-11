@@ -1,3 +1,60 @@
 body {
-  background-color: rgb(153, 234, 12)
+  background-image: url("mapbackground.jpg");
+  background-color: rgb(25, 40, 75);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+
+}
+
+main {
+  display:flex;
+  flex-direction: column;
+  
+}
+.title {
+  
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1% 0;
+  background-color: rgb(166, 35, 164);
+  color:black;
+  border-radius: 25px;
+
+}
+
+h1{
+  font-size:5vh;
+  margin-bottom: 0;
+}
+
+iframe{
+  border-color:black
+}
+.buttons{
+  display: flex;
+  margin: 1% 0;
+  justify-content:space-around;
+  background-color: rgb(72, 72, 184);
+  color: black;
+  padding: 5px;
+  border-radius: 25px;
+  
+  
+
+}
+
+.display{
+  
+}
+.labels {
+  background-color: rgb(161, 35, 161);
+  margin: 1% 0;
+  padding: 2px;
+  border-radius: 25px;
+
 }
