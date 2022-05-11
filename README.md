@@ -20,7 +20,7 @@ Screenshot
 
 
 Getting Started
-  Click this link to see the deployed app:  
+  Click this link to see the deployed app:  https://delightful-starlight-b0e129.netlify.app/
   
   
 Future Enhancements:
