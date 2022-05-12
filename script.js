@@ -18,11 +18,11 @@ const $form =$('form')
 $("select#category").change(function() {
  
   const category = $(this).val();
-  // console.log(category);
+  
 
 
   const categoryURL = `https://api.windy.com/api/webcams/v2/list/orderby=random/category=${category}/limit=50?show=webcams:location,player&key=xMMGgPgLclxZ4KEX9vDrtMTweoIiHQqm`
-  // console.log(categoryURL)
+  
 
   $.ajax(categoryURL).then(function(data){
     
@@ -37,9 +37,7 @@ $("select#category").change(function() {
 
     $iframe.attr('src',url)
 
-    // let newDropdown = $('<select />')
-    // newDropdown.appendTo('form')
-    // $('<option />', {text: $(data['result']['webcams'])}).appendTo(newDropdown)
+
   })
 
 
@@ -53,7 +51,7 @@ $("select#category").change(function() {
 //FUNCTIONS
 $('.randomBtn').click(function(){
   $.ajax(randomURL).then(function(data){
-    // console.log(data)
+    
     $title.text('Title: ' + data['result']['webcams'][0]['title']);
     $city.text('City: ' + data['result']['webcams'][0]['location']['city']);
     $region.text('Region: ' + data['result']['webcams'][0]['location']['region']);
@@ -62,7 +60,7 @@ $('.randomBtn').click(function(){
     let url= data['result']['webcams'][0]['player']['day']['embed']
 
     $iframe.attr('src',url)
-    // console.log(url)
+   
   })
 })
 
@@ -70,7 +68,7 @@ $('.liveBtn').click(function(){
 
   const liveURL = 'https://api.windy.com/api/webcams/v2/list/property=live/orderby=random/limit=50?show=webcams:image,location,player;categories&key=xMMGgPgLclxZ4KEX9vDrtMTweoIiHQqm'
   $.ajax(liveURL).then(function(data){
-    // console.log(data)
+    
     $title.text('Title: ' + data['result']['webcams'][0]['title']);
     $city.text('City: ' + data['result']['webcams'][0]['location']['city']);
     $region.text('Region: ' + data['result']['webcams'][0]['location']['region']);
@@ -80,7 +78,7 @@ $('.liveBtn').click(function(){
     let url = `https://webcams.windy.com/webcams/stream/${data['result']['webcams'][0]['id']}`
 
     $iframe.attr('src',url)
-    // console.log(url)
+    
   })
 })
 
@@ -88,7 +86,7 @@ $('.liveBtn').click(function(){
 
 
 
-// console.log($.ajax(randomURL))
+
 
 
 
