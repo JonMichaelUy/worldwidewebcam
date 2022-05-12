@@ -15,7 +15,8 @@ Technologies used:
 
 Screenshot
   
- ![Image]("https://user-images.githubusercontent.com/103963101/167950574-b9e491f4-5b6c-4b40-a90f-0f45b70970eb.png">)
+ ![Image]("https://i.imgur.com/wtWZLae.png")
+ ![Image]("https://i.imgur.com/PFWIjL2.png")
 
 
 
@@ -27,5 +28,5 @@ How to use
   
   
 Future Enhancements:
-  1. Additinal dropdown menus to select country and/or city
+  1. Additional dropdown menus to select country and/or city
   2. The ability to favorite a specific webcam in order to return to it at any time.
