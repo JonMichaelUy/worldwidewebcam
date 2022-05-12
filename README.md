@@ -1,8 +1,8 @@
 WorldWideWebcam
 
-  Welcome to my first project,  WorldWideWebcam!   I created this webcam viewer in order to view scenes from around the world.  Ive included three viewing options: Random, Category, Random-LIVE only.
+Welcome to my first project,  WorldWideWebcam!   I created this webcam viewer in order to view scenes from around the world.  Ive included three viewing options: Choose a Category, Surprise Me (Random),  LIVE (nly displays a currently streaming webcam).
 
-Tehcnologies used:
+Technologies used:
   
   JavaScript
   HTML
@@ -20,7 +20,10 @@ Screenshot
 
 
 Getting Started
-  Click this link to see the deployed app:  https://delightful-starlight-b0e129.netlify.app/
+  Click this link to see the deployed app:  https://worldwidewebcam.netlify.app/
+  
+How to use
+  Select a Category,  or click on either the Surprise Me or LIVE buttons.  Once a webcam shows up on the screen, press play to view.
   
   
 Future Enhancements:
