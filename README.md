@@ -13,7 +13,7 @@ Technologies used:
 
 
 
-Screenshot
+Screenshots:
   
  ![Image](https://i.imgur.com/wtWZLae.png)
  
@@ -22,10 +22,10 @@ Screenshot
 
 
 
-Getting Started
+Getting Started:
   Click this link to see the deployed app:  https://worldwidewebcam.netlify.app/
   
-How to use
+How to use:
   Select a Category,  or click on either the Surprise Me or LIVE buttons.  Once a webcam shows up on the screen, press play to view.
   
   
