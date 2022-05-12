@@ -7,6 +7,7 @@ Technologies used:
   JavaScript
   HTML
   CSS
+  JQuery
   AJAX
   api.windy.com
 
