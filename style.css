@@ -20,7 +20,7 @@ main {
   display:flex;
   flex-direction: column;
   align-items: center;
-  margin: 1% 0;
+  margin-bottom: 5px;
   background-color: rgb(166, 35, 164);
   color:black;
   border-radius: 25px;
@@ -40,11 +40,12 @@ iframe{
 }
 .buttons{
   display: flex;
-  margin: 0 0;
+  margin-bottom: 4px;
   justify-content:space-around;
   background-color: rgb(72, 72, 184);
   color: black;
   border-radius: 25px;
+  padding: 4px
   
   
 
@@ -55,8 +56,7 @@ iframe{
 }
 .labels {
   background-color: rgb(161, 35, 161);
-  margin: 1% 0;
-  padding: 1px;
+  padding-left: 10px;
   border-radius: 25px;
 
 }
@@ -64,22 +64,28 @@ iframe{
 @media only screen and (max-width: 800px) {
   body{
     background-image: none;
-    background-color: rgb(24, 8, 41);
+    background-color: rgb(17, 20, 83);
     
   }
   .title {
-    align-self: center;
+    /* align-self: center; */
     width: auto;
+
   }
   .buttons {
-    align-self: center;
-    width: auto;
+    padding: 5px
   }
   iframe {
-    align-self: center;
+    /* align-self: center; */
+    margin-top: 2px;
     width: 100%;
     height: 40vh
     
   }
-
+  h1 {
+    padding: 10px;
+  }
+  .labels {
+    padding-left: 10px;
+  }
 }
