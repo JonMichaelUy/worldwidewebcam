@@ -4,11 +4,11 @@ Welcome to my first project,  WorldWideWebcam!   I created this webcam viewer in
 
 Technologies used:
   
-  JavaScript
-  HTML
-  CSS
-  JQuery
-  AJAX
+  JavaScript,
+  HTML,
+  CSS,
+  JQuery,
+  AJAX,
   api.windy.com
 
 
